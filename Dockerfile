@@ -10,3 +10,5 @@ RUN mkdir -p /tmp/nim && \
 	./build.sh && \
 	./install.sh /usr/bin && \
 	rm -rf /tmp/nim
+ADD entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
