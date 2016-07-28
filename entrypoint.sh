@@ -2,15 +2,15 @@
 set -e
 
 run () {
-	nim c -r --verbosity:0 $2
+	nim c -r --verbosity:0 $1
 }
 
 compile () {
-	nim c --verbosity:0 $2
+	nim c --verbosity:0 $1
 }
 
 usage () {
-	echo "Not implemented!"
+	echo "no such thing yet!"
 	exit 1
 }
 
