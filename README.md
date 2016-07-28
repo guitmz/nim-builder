@@ -4,6 +4,7 @@ Docker container to run and build Nim code.
 This image is based on `alpine` Linux and has a total size of **162.6 MB**.
 
 # How to build:
+  You can pull this image from Docker Hub directly to skip building yourself: `docker pull guitmz/nim-builder`
   - Clone this repo: `git clone https://github.com/guitmz/nim-builder.git`
   - `chmod +x entrypoint.sh`
   - Build the image `docker build -t image_name .` (from inside the Dockerfile folder)
