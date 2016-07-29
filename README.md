@@ -1,7 +1,7 @@
 # nim-builder
 Docker container to run and build Nim code.
 
-This image is based on `alpine` Linux and has a total size of **162.6 MB**. Be advised that the final executable will be linked with `musl libc`.
+This image is based on `alpine` Linux and has a total size of **162.6 MB**. Be advised that the final executable will be linked with `musl libc` and for that reason, the output will be a **static** binary for compatibility.
 
 # How to build:
   You can pull this image from Docker Hub directly to skip building yourself: `docker pull guitmz/nim-builder`
