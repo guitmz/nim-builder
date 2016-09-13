@@ -1,4 +1,4 @@
-!!! This is no longer supported, you should use https://hub.docker.com/r/nimlang/nim/ instead :)
+!!! This is no longer supported, you should use https://hub.docker.com/r/nimlang/nim/ (https://github.com/moigagoo/nimage) instead :)
 
 # nim-builder
 Docker container to run and build Nim code.
